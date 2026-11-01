@@ -1,0 +1,73 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    color: rgb(244, 200, 5);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 700;
+    text-align: center;
+    background: url('main bg.jpg') center / contain fixed no-repeat;
+font-family: "Josefin Sans", sans-serif;
+}
+
+.page1 {
+    box-sizing: border-box;
+    min-height: 100vh;
+    margin: 0;
+    padding: clamp(24px, 6vw, 64px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: url('section bg.jpg') center / contain no-repeat;
+    font-size: 10px;
+}
+
+.page {
+    box-sizing: border-box;
+    min-height: 100vh;
+    margin: 0;
+    padding: clamp(24px, 6vw, 64px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: url('section bg.jpg') center / contain no-repeat;
+    font-size: 10px;
+}
+
+.page h1 {
+    font-size: clamp(2rem, 6vw, 3.5rem);
+}
+
+.page p {
+    max-width: 42rem;
+    line-height: 1.6;
+}
+
+.btn {
+    margin-top: 16px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: rgb(11, 11, 11);
+    text-decoration: none;
+    background: rgba(214, 13, 137, 0.8);
+    border-radius: 11px;
+position: relative;
+bottom: 15px;
+top: 10px;
+}
+
+.btn1{
+    position: relative;
+    bottom: 25px;
+    margin-top: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: rgb(11, 11, 11);
+    text-decoration: none;
+    background: rgba(214, 13, 137, 0.8);
+    border-radius: 11px;
+}
